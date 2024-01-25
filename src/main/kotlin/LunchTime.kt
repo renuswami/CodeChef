@@ -9,8 +9,8 @@ fun main(){
         if(x in 1..4){
 
         println("YES")
-    }else{
+        }else{
         println("NO")
-    }
+        }
     }
 }

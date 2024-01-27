@@ -17,8 +17,6 @@ fun main() {
         } else {
             if (b > c) {
                 println("Bob")
-            } else {
-                println("Charlie")
             }
         }
     }

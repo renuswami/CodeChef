@@ -9,7 +9,5 @@ fun main(){
         }else{
             println("NO")
         }
-
-
     }
 }

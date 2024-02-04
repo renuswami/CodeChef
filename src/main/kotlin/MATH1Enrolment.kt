@@ -5,7 +5,6 @@ fun main(){
     repeat(t){
 
         val(x, y) = readLine()!!.split(" ").map{it.toInt()}
-
         val seats = y-x
 
         if(x>y){

@@ -6,8 +6,8 @@ fun main(args: Array<String>)
 {
     val inp = Scanner(System.`in`)
     val t:Int = inp.nextInt()
-    repeat(t)
-    {
+
+    repeat(t){
         val a :Int = inp.nextInt()
         val b : Int = inp.nextInt()
         if (a >= b) println(a)

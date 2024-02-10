@@ -13,7 +13,6 @@ fun isEasyToPronounce(word: String): String {
     }
     return "YES"
 }
-
 fun main() {
     val t = readln().toInt()
 

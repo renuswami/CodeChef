@@ -24,6 +24,7 @@ fun main() {
 
         // Calculate Addy's streak
         for (i in 0..<n) {
+            
             if (addyProblems[i] > 0) {
                 addyStreak++
                 maxAddyStreak = maxOf(maxAddyStreak, addyStreak)

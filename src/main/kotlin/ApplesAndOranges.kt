@@ -3,6 +3,7 @@ import java.util.*
 fun main() {
     val scanner = Scanner(System.`in`)
     val T = scanner.nextInt()
+
     repeat(T) {
         val N = scanner.nextLong()
         val M = scanner.nextLong()

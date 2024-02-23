@@ -3,6 +3,6 @@ fun isChefHappy(n: Int, m: Int): String {
 }
 
 fun main() {
-    val (n, m) = readLine()!!.split(" ").map { it.toInt() }
+    val (n, m) = readln().split(" ").map { it.toInt() }
     println(isChefHappy(n, m))
 }

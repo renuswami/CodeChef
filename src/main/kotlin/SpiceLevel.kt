@@ -1,7 +1,7 @@
 fun spiceLevel(x: Int): String {
     if (x >= 7) {
         return "HOT"
-    } else if (x >= 4 && x < 7) {
+    } else if (x in 4..6) {
         return "MEDIUM"
     } else {
         return "MILD"

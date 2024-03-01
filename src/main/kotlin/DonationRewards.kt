@@ -1,4 +1,4 @@
-fun isReachedOrNot(x: Int): String{
+fun donationRewards(x: Int): String{
 
     return if(x<=3){
         "BRONZE"
@@ -14,7 +14,7 @@ fun main(){
     repeat(t){
 
         val x= readln().toInt()
-        val result = isReachedOrNot(x)
+        val result = donationRewards(x)
         println(result)
     }
 }

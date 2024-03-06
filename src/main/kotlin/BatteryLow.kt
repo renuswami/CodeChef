@@ -6,6 +6,7 @@ fun main(){
         val x = readln().toInt()
         if(x <= 15){
             println("YES")
+
         }else{
             println("NO")
         }

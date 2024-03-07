@@ -3,7 +3,7 @@ fun shouldRentCooler(rentCost: Int, purchaseCost: Int, months: Int): String {
     return if (totalRentCost < purchaseCost) "YES" else "NO"
 }
 fun main() {
-    val testCases = readLine()!!.toInt()
+    val testCases = readln().toInt()
 
     repeat(testCases) {
         val (rentCost, purchaseCost, months) = readLine()!!.split(" ").map { it.toInt() }

@@ -1,5 +1,9 @@
 fun main(){
 
+}
+
+fun sumOfDigits(){
 
 }
+
 

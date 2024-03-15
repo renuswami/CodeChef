@@ -1,13 +1,12 @@
-fun main(){
-
-    val t = readln().toInt()
-    repeat(t){
-
-        val(x, y) = readln().split(" ").map{it.toInt()}
-        if(x> y){
-            println("YES")
-        }else{
-            println("NO")
-        }
-    }
+fun scoredMarks(x: Int, y: Int): String {
+    return if (x >= 2 * y) "YES" else "NO"
 }
+
+fun main() {
+
+    val (x, y) = readLine()!!.split(" ").map { it.toInt() }
+    val scoredTwice = scoredMarks(x, y)
+    println(scoredTwice)
+
+}
+

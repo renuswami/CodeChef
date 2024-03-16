@@ -1,5 +1,4 @@
 fun percentage(x: Int, y: Int): String{
-
     return if(x < 50) "Z" else if(x >= 50 && y < 50) "F" else "A"
 }
 

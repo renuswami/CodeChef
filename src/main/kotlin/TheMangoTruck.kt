@@ -1,6 +1,6 @@
 fun maxMangoes(t: Int, testCases: List<Triple<Int, Int, Int>>): List<Int> {
     val result = mutableListOf<Int>()
-    for (i in 0 until t) {
+    for (i in 0..<t) {
         val (x, y, z) = testCases[i]
         val maxMango = (z - y) / x
         result.add(maxMango)
@@ -9,10 +9,10 @@ fun maxMangoes(t: Int, testCases: List<Triple<Int, Int, Int>>): List<Int> {
 }
 
 fun main() {
-    val t = readLine()!!.toInt()
+    val t = readln().toInt()
     val testCases = mutableListOf<Triple<Int, Int, Int>>()
     repeat(t) {
-        val (x, y, z) = readLine()!!.split(" ").map { it.toInt() }
+        val (x, y, z) = readln().split(" ").map { it.toInt() }
         testCases.add(Triple(x, y, z))
     }
 

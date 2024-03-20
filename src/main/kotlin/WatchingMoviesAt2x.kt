@@ -5,7 +5,7 @@ fun totalMinutes(x: Int, y: Int): Int {
 }
 fun main() {
 
-    val (x, y) = readLine()!!.split(" ").map { it.toInt() }
+    val (x, y) = readln().split(" ").map { it.toInt() }
     val result = totalMinutes(x, y)
     println(result)
 

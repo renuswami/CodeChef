@@ -1,22 +1,11 @@
-import java.util.*
-
 fun main() {
-    val scanner = Scanner(System.`in`)
-    val T = scanner.nextInt()
+    val x = readLine()!!.toInt()
+    val (a, b) = readLine()!!.trim().split(" ").map { it.toInt() }
+    val totalCost = a + b
 
-    repeat(T) {
-        val N = scanner.nextLong()
-        val M = scanner.nextLong()
-        val result = maxContestants(N, M)
-        println(result)
+    if (x >= totalCost) {
+        println("YES")
+    } else {
+        println("NO")
     }
-    scanner.close()
-}
-
-fun maxContestants(apples: Long, oranges: Long): Long {
-    return gcd(apples, oranges)
-}
-
-fun gcd(a: Long, b: Long): Long {
-    return if (b == 0L) a else gcd(b, a % b)
 }

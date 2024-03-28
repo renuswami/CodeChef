@@ -2,7 +2,6 @@ fun profitIncrement(x: Int, y: Int): Int{
     val price = x-y
     var persentage = (x/10)
     persentage += x
-
     return persentage - price
 }
 fun main(){

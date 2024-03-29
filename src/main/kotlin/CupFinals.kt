@@ -1,5 +1,7 @@
+import kotlin.math.abs
+
 fun isInteresting(x: Int, y: Int, d: Int): String {
-    val skillDifference = Math.abs(x - y)
+    val skillDifference = abs(x - y)
     return if (skillDifference <= d) {
         "YES"
     } else {

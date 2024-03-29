@@ -8,10 +8,10 @@ fun isInteresting(x: Int, y: Int, d: Int): String {
 }
 
 fun main() {
-    val t = readLine()!!.toInt()
+    val t = readln().toInt()
 
     repeat(t) {
-        val (x, y, d) = readLine()!!.split(" ").map { it.toInt() }
+        val (x, y, d) = readln().split(" ").map { it.toInt() }
         val result = isInteresting(x, y, d)
         println(result)
     }

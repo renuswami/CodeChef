@@ -1,8 +1,8 @@
 fun main(){
-    var t = readLine()!!.toInt()
+    val t = readln().toInt()
     repeat(t){
-        var(n,x) = readLine()!!.split(" ").map(String::toInt)
-        var rem = n % x
+        val (n,x) = readln().split(" ").map(String::toInt)
+
         if(n % x == 0){
             println("YES")
         }

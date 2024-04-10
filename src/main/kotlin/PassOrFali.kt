@@ -8,8 +8,8 @@ fun passOrFali(n: Int, x: Int, p: Int) : String{
 }
 
 fun main() {
-    repeat(readLine()!!.toInt()){
-        val (n,x,p) = readLine()!!.split(" ").map{ it.toInt() }
+    repeat(readln().toInt()){
+        val (n,x,p) = readln().split(" ").map{ it.toInt() }
         val result = passOrFali(n, x, p)
         println(result)
     }
